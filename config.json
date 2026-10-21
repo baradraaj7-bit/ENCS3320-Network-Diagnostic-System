@@ -1,0 +1,43 @@
+{
+    "tcp_server": {
+        "host": "0.0.0.0",
+        "port": 5876,
+        "max_clients": 10
+    },
+
+    "http_server": {
+        "host": "0.0.0.0",
+        "port": 6876,
+        "default_page": "index.html"
+    },
+
+    "logging": {
+        "log_file": "logs/commands_log.json"
+    },
+
+    "data": {
+        "stats_file": "data/statistics.json"
+    },
+    
+
+    "team": {
+        "team_number": "T018",
+        "members": [
+            {
+                "name": "Baraa Darraj",
+                "id": "1230667",
+                "section": "1"
+            },
+            {
+                "name": "Sadeel amjad",
+                "id": "1232723",
+                "section": "1"
+            },
+            {
+                "name": "jana sharif",
+                "id": "1240876",
+                "section": "1"
+            }
+        ]
+    }
+}
